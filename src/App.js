@@ -1,16 +1,15 @@
-import React from 'react';
+import React from "react";
 
-import Header from './Header';
+import Header from "./Header";
+import Cards from "./Cards";
 
-import './App.css';
-
-
+import "./App.css";
 
 function App() {
   return (
     <div className="app">
       <Header />
-      {/* Proflie Cards */}
+      <Cards />
       {/* Swipe Buttons */}
     </div>
   );
